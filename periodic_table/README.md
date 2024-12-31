@@ -4,7 +4,7 @@
 The aim of this project is to create/edit a periodic table database, **periodic_table.sql**, using PostgreSQL and querying it using a Bash program, **element.sh**. Additionally, progress and commits throughout the project must be recoreded through the use of Git. When running the program, an **element's information** (atomic number, symbol, name, type, mass, melting point, boiling point) will be displayed when it's atomic number, symbol, or name is given as an argument (see sample inputs below).
 
 ### Running Program
-Run Bash program using **./element.sh** in the terminal, along with an input. Examples shown below.
+Dump and rebuild **periodic_table.sql** with the following command: *psql -U postgres < periodic_table.sql*. Run Bash program using **./element.sh** in the terminal, along with an input. Examples shown below.
 
 ### Sample Inputs
 **Terminal Input:** ./element.sh 1  
